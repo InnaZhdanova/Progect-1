@@ -1,8 +1,7 @@
 "use strict";
-const answers = [];
 
-answers[0] = prompt('What is your name?', '');
-answers[1] = prompt('How old are you?', '');
-answers[2] = prompt('Where are you from?', '');
+let numberOfFilms;
 
-document.write(answers);
+numberOfFilms = prompt('How many films have you alredy wached?', '');
+
+document.write('You have already wathed ' + numberOfFilms + ' films');
